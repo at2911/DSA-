@@ -1,1 +1,38 @@
-"*.exe*.out*.obj*.o*.log*.tmp*.cache*.pdb*.ilk.vscode/.idea/.DS_Storebuild/cmake-build-*/~$**.lnkThumbs.dbDesktop.iniehthumbs.db$RECYCLE.BIN/*.user*.suo*.sdf*.opensdf*.VC.db" 
+# Ignore compiled binary files
+*.exe
+*.out
+*.obj
+*.o
+
+# Ignore temporary build files
+*.log
+*.tmp
+*.cache
+*.pdb
+*.ilk
+
+# Ignore Visual Studio / VS Code folders
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore CMake / build system folders
+build/
+cmake-build-*/
+
+# Ignore OneDrive temporary files
+~$*
+*.lnk
+Thumbs.db
+Desktop.ini
+
+# Ignore Windows-specific junk
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Ignore user-specific configs
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
